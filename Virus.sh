@@ -60,8 +60,8 @@ figlet "KANG CUPU"
        echo       $yellow "###############################"
        echo           "#                             #"
        echo           "#                             #"
-       echo           "# "  $green ">Santri Cyber Santuy<" $yellow         "#"
-       echo           "# "   $green ">From Santri To Kyai<"  $yellow     "  #"
+       echo           "# "  $green ">Santri Cyber Santuy<" $yellow            "#"
+       echo           "# "   $green ">From Santri To Kyai<"  $yellow       "  #"
        echo           "#                             #"
        echo           "#                             #"
        echo           "###############################"
@@ -89,7 +89,9 @@ echo $yellow "7-make a list password"
 sleep 1
 echo $cyan "8-my office on facebook"
 sleep 1
-echo $green "9-exit"
+echo $green "9-Multi Tools"
+sleep 1
+echo $blue "10-Exit Cuk"
 sleep 1
 echo $white "============================="
 echo $purple ""
@@ -151,7 +153,6 @@ echo "### Installing mbf"
 git clone https://github.com/YukersCreew/mbf
 cd mbf
 ls
-
 python2 MBF.py
 fi
 #------------------------------------
@@ -173,10 +174,9 @@ fi
 #-------------------------------------
 if [ $number -eq 9 ]
 then
-https://github.com/AKKUSANTUY/MODUL
+git clone https://github.com/AKKUSANTUY/MODUL
 cd MODUL
 sh GAS-CUK.sh
-echo "good byeeeeeeee cuk trimakasih."
 fi
 #----------------------------
 if [ $number -eq 10 ]
