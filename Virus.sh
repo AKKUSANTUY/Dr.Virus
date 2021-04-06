@@ -93,6 +93,8 @@ echo $green "9-exit"
 sleep 1
 echo $white "============================="
 echo $purple ""
+sleep 2
+termux-open-url https://www.instagram.com/akku_santuy
 sleep 5
 read -p ">>>enter a number cuk : " number
 #--------------------------------
@@ -108,14 +110,10 @@ fi
 #---------------------------
 if [ $number -eq 2 ]
 then
-echo "### installing instabot"
-git clone https://github.com/Senitopeng/instabot
-ls
-pip install instabot
-pip2 install -r requestments
-cd instabot
-chmod 755 instabot
-bash instabot
+echo "### installing Instagram"
+git clone https://github.com/AKKUSANTUY/ToolsX-IG
+cd ToolsX-IG
+sh IG-ME.sh
 fi
 #----------------------------
 if [ $number -eq 3 ]
@@ -175,7 +173,19 @@ fi
 #-------------------------------------
 if [ $number -eq 9 ]
 then
+https://github.com/AKKUSANTUY/MODUL
+cd MODUL
+sh GAS-CUK.sh
 echo "good byeeeeeeee cuk trimakasih."
 fi
 #----------------------------
+if [ $number -eq 10 ]
+then
+echo "good byeeeeeeee cuk trimakasih."
+sleep 2
+termux-open-url https://www.instagram.com/akku_santuy
+sleep 3
+fi
+#----------------------------
+
 
