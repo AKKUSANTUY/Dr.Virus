@@ -1,35 +1,93 @@
 #!/bin/bash
+# Jangan Recode Aing 
+# Lu Mampu Nga bos
+# Instagram : Akku_Santuy
+# WhtsApp : 082134566596
 
-       echo                " Dr.Virus v 2.0"
+blue='\033[34;1m'
+green='\033[32;1m'                                        
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'                                           
+yellow='\033[33;1m'
+
+clear
+echo $blue "Loading Cuk."
+sleep 1
+clear
+echo $green ">>>Loading Cuk.."
+sleep 1
+clear
+echo $yellow ">>>Loading Cuk..."
+sleep 1
+clear
+echo $purple ">>>Loading Cuk...."
+sleep 1
+clear
+echo $blue ">>>Loading Cuk....."
+sleep 1
+clear
+echo $green ">>>Loading Cuk......"
+sleep 1
+clear
+echo $yellow ">>>Loading Cuk......."
+sleep 1
+clear
+echo
+echo
+sleep 1
+echo $green " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
+echo $yellow "==================================================="
+figlet " Dr.Virus"
+echo $yellow "==================================================="
+sleep 1
+echo
+echo $red " [!]=========================================[!] "
+sleep 1
+echo $green "  | Author    : Santri-Cyber-Santuy           |"
+sleep 1
+echo $yellow "  | Instagram : Akku_Santuy                   | "
+sleep 1
+echo $purple "  | Github    : https://github.com/AKKUSANTUY |"
+sleep 1
+echo $blue "  | WhatsApp  : +62821-3456-6596              | "
+sleep 1
+echo $red " [!]=========================================[!]"
+echo
+       echo          $red      " Dr.Virus v 2.0"
+       echo        $yellow   "###############################"
+       echo           "#                             #"
+       echo           "#                             #"
+       echo           "#   $green ">Santri Cyber Santuy<" $yellow   #"
+       echo           "#    $green ">From Santri To Kyai<"  $yellow  #"
+       echo           "#                             #"
+       echo           "#                             #"
        echo           "###############################"
-       echo           "#                             #"
-       echo           "#                             #"
-       echo           "#           Dr.Virus          #"
-       echo           "#                             #"
-       echo           "#                             #"
-       echo           "#                             #"
-       echo           "###############################"
-          echo               "Developed team:"
+          echo            $blue   "Developed team :"
           echo                  "Dr.Virus"
+echo
 sleep 1
-echo "1-Facebook"
+echo $red "[!] MENU [!]"
 sleep 1
-echo "2-instagram"
+echo $purple "1-Facebook"
 sleep 1
-echo "3-twitter {Root}"
+echo $blue "2-instagram"
 sleep 1
-echo "4-Gemail"
+echo $green "3-twitter {Root}"
 sleep 1
-echo "5-password list {aleardy}"
+echo $cyan "4-Gemail Hack"
 sleep 1
-echo "6-mbf {facebook}"
+echo $red "5-password list {aleardy}"
 sleep 1
-echo "7-make a list password"
+echo $white "6-mbf {facebook}"
 sleep 1
-echo "8-my office on facebook"
+echo $yellow "7-make a list password"
 sleep 1
-echo "9-exit"
-read -p "enter a number : " number
+echo $cyan "8-my office on facebook"
+sleep 1
+echo $green "9-exit"
+read -p "enter a number cuk : " number
 #--------------------------------
 if [ $number -eq 1 ]
 then
@@ -110,6 +168,7 @@ fi
 #-------------------------------------
 if [ $number -eq 9 ]
 then
-echo "good byeeeeeeee ."
+echo "good byeeeeeeee cuk trimakasih."
 fi
 #----------------------------
+
