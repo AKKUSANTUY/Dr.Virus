@@ -39,7 +39,7 @@ echo
 sleep 1
 echo $green " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
 echo $yellow "==================================================="
-figlet " Dr.Virus"
+figlet " Dr.Virus V2.0"
 echo $yellow "==================================================="
 sleep 1
 echo
@@ -71,6 +71,8 @@ echo $cyan ""
 sleep 1
 figlet " ^MENU^ "
 sleep 1
+echo $white "============================="
+sleep 1
 echo $purple "1-Facebook"
 sleep 1
 echo $blue "2-instagram"
@@ -88,8 +90,11 @@ sleep 1
 echo $cyan "8-my office on facebook"
 sleep 1
 echo $green "9-exit"
+sleep 1
+echo $white "============================="
 echo $purple ""
-read -p "enter a number cuk : " number
+sleep 5
+read -p ">>>enter a number cuk : " number
 #--------------------------------
 if [ $number -eq 1 ]
 then
