@@ -75,21 +75,23 @@ echo $white "============================="
 sleep 1
 echo $purple "1-Facebook"
 sleep 1
-echo $blue "2-instagram"
+echo $blue "2-Instagram"
 sleep 1
-echo $green "3-twitter {Root}"
+echo $green "3-Twitter {Root}"
 sleep 1
 echo $cyan "4-Gemail Hack"
 sleep 1
-echo $red "5-password list {aleardy}"
+echo $red "5-Password list {aleardy}"
 sleep 1
-echo $white "6-mbf {facebook}"
+echo $white "6-Mbf {facebook}"
 sleep 1
-echo $yellow "7-make a list password"
+echo $yellow "7-Make a list password"
 sleep 1
-echo $cyan "8-my office on facebook"
+echo $cyan "8-My office on facebook"
 sleep 1
-echo $green "9-exit"
+echo $green "9-Multi Tools"
+sleep 1
+echo $blue "10-Exit Cuk"
 sleep 1
 echo $white "============================="
 echo $purple ""
