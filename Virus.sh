@@ -13,7 +13,7 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 
 clear
-echo $blue "Loading Cuk."
+echo $blue ">>>Loading Cuk."
 sleep 1
 clear
 echo $green ">>>Loading Cuk.."
@@ -55,20 +55,21 @@ echo $blue "  | WhatsApp  : +62821-3456-6596              | "
 sleep 1
 echo $red " [!]=========================================[!]"
 echo
-       echo          $red      " Dr.Virus v 2.0"
-       echo        $yellow   "###############################"
+figlet "KANG CUPU"
+       echo          $green      " Dr.Virus v 2.0"
+       echo        $yellow  "###############################"
        echo           "#                             #"
        echo           "#                             #"
-       echo           "#   $green ">Santri Cyber Santuy<" $yellow   #"
-       echo           "#    $green ">From Santri To Kyai<"  $yellow  #"
+       echo           "# "  $green ">Santri Cyber Santuy<" $yellow   "#"
+       echo           "# "   $green ">From Santri To Kyai<"  $yellow " #"
        echo           "#                             #"
        echo           "#                             #"
        echo           "###############################"
-          echo            $blue   "Developed team :"
+          echo            $blue  "Developed team :"
           echo                  "Dr.Virus"
 echo
 sleep 1
-echo $red "[!] MENU [!]"
+figlet " ^MENU^ "
 sleep 1
 echo $purple "1-Facebook"
 sleep 1
@@ -87,6 +88,7 @@ sleep 1
 echo $cyan "8-my office on facebook"
 sleep 1
 echo $green "9-exit"
+echo $purple ""
 read -p "enter a number cuk : " number
 #--------------------------------
 if [ $number -eq 1 ]
