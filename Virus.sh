@@ -57,17 +57,17 @@ echo $red " [!]=========================================[!]"
 echo
 figlet "KANG CUPU"
        echo          $green      " Dr.Virus v 2.0"
-       echo        $yellow  "###############################"
+       echo        $yellow "###############################"
        echo           "#                             #"
        echo           "#                             #"
-       echo           "# "  $green ">Santri Cyber Santuy<" $yellow   "#"
-       echo           "# "   $green ">From Santri To Kyai<"  $yellow " #"
+       echo           "# "  $green ">Santri Cyber Santuy<" $yellow      "#"
+       echo           "# "   $green ">From Santri To Kyai<"  $yellow  "  #"
        echo           "#                             #"
        echo           "#                             #"
        echo           "###############################"
           echo            $blue  "Developed team :"
           echo                  "Dr.Virus"
-echo
+echo $cyan ""
 sleep 1
 figlet " ^MENU^ "
 sleep 1
